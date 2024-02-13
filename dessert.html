@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Minuman manis</title>
+	<style>
+		body {
+			text-align: center;
+			margin-top: 30px;
+			font-family: courier;
+			background-color: #FFF5E4;
+			color: #FF9494;
+		}
+		#dessertquestion {
+			font-size: 50px;
+			margin-bottom: 30px;
+			font-weight: bold;
+		}
+		.dessert-item {
+			display: inline-table;
+			margin: 10px;
+			vertical-align: top;
+			color: #FF9494;
+		}
+		.dessert-item img {
+            width: 220px; 
+            height: auto;
+			padding: 10px;
+        }
+		.dessert-item label {
+            display: block;
+        }
+		.button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            font-family: 'courier';
+            margin-bottom: 20px;
+            background-color:#FFE3E1;
+            color: #e67373;
+            border-radius: 12px;
+            border: 2px solid #FFE3E1;
+        }
+	</style>
+</head>
+<body>
+	<div id = "dessertquestion"> Dessert mana yang harus di coba nanti? </div>
+	
+	<div class = "dessert-selection">
+		<div class = "dessert-item">
+			<img src = "food/thai tea.jpeg" alt ="boba">
+			<label><input type="checkbox" name="dessert" value="boba"> Thai tea</label>
+		</div>	
+		<div class = "dessert-item">
+			<img src = "food/esbatu.jpeg" alt ="churro">
+			<label><input type="checkbox" name="dessert" value="churro"> Es batu</label>
+		</div>	
+		<div class = "dessert-item">
+			<img src = "food/goodday.jpeg" alt ="che">
+			<label><input type="checkbox" name="dessert" value="che"> Goodday</label>
+		</div>	
+		<div class = "dessert-item">
+			<img src = "food/eskrim.jpeg" alt ="mochi">
+			<label><input type="checkbox" name="dessert" value="mochi"> Es Krim</label>
+		</div>	
+		<div class = "dessert-item">
+			<img src = "food/eskelapa.jpeg" alt ="randombun">
+			<label><input type="checkbox" name="dessert" value="randombun"> Es kelapa</label>
+		</div>	
+		<div class = "dessert-item">
+			<img src = "food/esteh.jpeg" alt ="taiyaki">
+			<label><input type="checkbox" name="dessert" value="taiyaki"> Es teh</label>
+		</div>	
+	</div>
+	<button class = "button" onclick="location.href='lastpage.html'">Lanjut! :D</button>
+
+</body>
+</html>

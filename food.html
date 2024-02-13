@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makan Apa</title>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 30px;
+            font-family: 'Courier';
+            background-color:#FFF5E4;
+            color: #FF9494;
+        }
+        #foodquestion {
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+        .food-item {
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+			color: #FF9494;
+        }
+        .food-item img {
+            width: 220px; 
+            height: auto;
+			padding: 10px;
+        }
+        .food-item label {
+            display: block;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            font-family: 'courier';
+            margin-bottom: 20px;
+            background-color:#FFE3E1;
+            color: #e67373;
+            border-radius: 12px;
+            border: 2px solid #FFE3E1;
+        }
+    </style>
+</head>
+<body>
+    <div id="foodquestion"><b><u>Makanan apa yang pengen kamu makan nanti?</u></b></div>
+    
+    <div class="food-selection">
+        <div class="food-item">
+            <img src="food/seblak.jpeg" alt="Burgers, fries and fried chicken">
+            <label><input type="checkbox" name="food" value="Burgers, fries and fried chicken"> Seblakk enakkk</label>
+        </div>
+        <div class="food-item">
+            <img src="food/mi tektek.jpeg" alt="dog">
+            <label><input type="checkbox" name="food" value="hotdog"> Mie Tek Tek Rendang</label>
+        </div>
+        <div class="food-item">
+            <img src="food/buburayam.jpeg" alt="koreanfood">
+            <label><input type="checkbox" name="food" value="Korean food"> Bubur ayam</label>
+        </div>
+        <div class="food-item">
+            <img src="food/mie ayam.jpeg" alt="pasta">
+            <label><input type="checkbox" name="food" value="pasta"> Mie Ayam</label>
+        </div>
+        <div class="food-item">
+            <img src="food/baso.jpeg" alt="pizza">
+            <label><input type="checkbox" name="food" value="pizza"> Bakso</label>
+        </div>
+        <div class="food-item">
+            <img src="food/ayam geprek.jpeg" alt="salad">
+            <label><input type="checkbox" name="food" value="salad"> Ayam geprek</label>
+        </div>
+        <div class="food-item">
+            <img src="food/pecel ayam.jpeg" alt="steak">
+            <label><input type="checkbox" name="food" value="steak"> Pecel ayam</label>
+        </div>
+        <div class="food-item">
+            <img src="food/Coklat.jpeg" alt="sushi">
+            <label><input type="checkbox" name="food" value="sushi"> Coklat:3</label>
+        </div>
+    </div>
+    <button class ="button"onclick="location.href='dessert.html'">Lanjut :D</button>
+    
+</body>
+</html>
